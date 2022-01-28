@@ -54,8 +54,7 @@ namespace ConsoleUI
 
             CarManager carManager = new CarManager(new EfCarDal());
 
-            //carManager.Add(myCar);   //..Commented because always adding and adding..
-
+            
             var result = carManager.GetCarDetails();
 
             if (result.Success)
